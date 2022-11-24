@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>web_page</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script src="js/bootstrap.js"></script>
+	<script src="https://kit.fontawesome.com/01d2ea68f8.js" crossorigin="anonymous"></script>
+	<style>
+		#cat_men{
+			background: url('img/men_2.jpg');
+			background-size:cover;
+			background-repeat: no-repeat;
+		}
+		#cat_women{
+			background: url('img/women_2.jpg');
+			background-size:cover;
+			background-repeat: no-repeat;
+		}
+		#cat_kids{
+			background: url('img/kids_1.jpg');
+			background-size:cover;
+			background-repeat: no-repeat;
+		}
+		.cat_btn{
+			min-height: 300px;
+			line-height: 300px;
+		}
+/*		*/
+
+      .liitem
+      {
+        min-height: 30px;
+        min-width: 80px;
+        color: white !important;
+        border-radius: 5px;
+      }
+      .liitem:hover
+      {
+        background-color: orange;
+        color: white;
+        transition: all ease 1s;
+        border-radius: 5px;
+      }
+
+	</style>
+</head>
+<body>
+<div class="container-fluid">
+    <!-- UNavbar -->
+    <div class="row top text-dark text-center py-1" style="background-color: #f8f9f2;">
+    	<div class="col-sm-4">
+    		<i class="bi bi-phone"></i> +91-8572931748
+    	</div>
+    	<div class="col-sm-4">
+    		<i class="bi bi-envelope"></i> technicalpankajkumar@gmail.com
+    	</div>
+    	<div class="col-sm-4">
+    		<i class="fa fa-youtube "></i>&nbsp;&nbsp;
+			<i class="fa fa-whatsapp "></i>&nbsp;&nbsp;
+			<i class="fa fa-instagram "></i>&nbsp;&nbsp;
+			<i class="fa fa-facebook "></i>&nbsp;&nbsp;
+    	</div>
+    </div>
+    <!-- UNavbar End -->
+
+    <!-- Search bar -->
+    <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-2 text-center fs-2">
+                <b>Apna-</b><b style="color: orange;">Cart<i class="fa fa-cart-fill"></i></b>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-4 pt-2">
+                <div class="input-group flex-nowrap">
+                    
+                    <input type="text" class="form-control" placeholder="Search.." aria-label="Username" aria-describedby="addon-wrapping">
+                    <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-search"></i></span>
+                  </div>
+            
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1 mx-0 fs-2">
+                <center>
+                    <span style="color: orange;"><i class="fa-solid fa-cart-shopping text-success"></i></span>
+
+                </center>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    <!-- Seatch bar End -->
+
+    <!-- BNavbar -->
+    <div class="row sticky-top mt-2 justify-content-center" style="background:#343a42">
+    	<div class="col-sm-2 fs-3 text-white mt-1 mx-0">
+    		<center>
+    			<b>APNA</b><b style="color: orange;">CART</b>
+    		</center>
+    	</div>
+    	<div class="col-sm-6">
+    		<nav class="navbar navbar-expand-lg" style="background:#343a42;">
+    			<div class="container-fluid">
+    				<a href="#"></a>
+    				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    					<span class="navbar-toggler-icon"></span>
+    				</button>
+    				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    						<li class="nav-item">
+    							<a class="nav-link active text-center liitem" aria-current="page" href="web_page.html"><i class="fa-solid fa-house"></i>&nbsp;Home</a>
+    						</li>
+
+    						<li class="nav-item dropdown">
+    							<a class="nav-link dropdown-toggle liitem text-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    								<i class="fa-solid fa-dumpster"></i>&nbsp;Product
+    							</a>
+    							<ul class="dropdown-menu" style="background:#343a42;">
+    								<li><a class="dropdown-item liitem" href="products_page.html">Men's</a></li>
+    								<li><a class="dropdown-item liitem" href="womenProduct.html">Women's</a></li>
+    								<li><a class="dropdown-item liitem" href="kidsProduct.html">Kid's</a></li>
+    							</ul>
+    						</li>
+    						<li class="nav-item">
+    							<a class="nav-link liitem text-center" href="orders_page.html"><i class="fa-solid fa-cart-shopping"></i>&nbsp;MyOrder</a>
+    						</li>
+    						<li class="nav-item">
+    							<a class="nav-link liitem text-center" href="myprofile_page.html"><i class="fa-solid fa-user"></i>&nbsp;MyProfile</a>
+    						</li>
+    						<li class="nav-item">
+    							<a class="nav-link liitem text-center" href="feedback_page.html"><i class="fa-solid fa-rss"></i>&nbsp;Feedback</a>
+    						</li>
+    						<li class="nav-item">
+    							<a class="nav-link liitem text-center" href="register_page.html"><i class="fa-solid fa-user-plus"></i>&nbsp;Sign Up</a>
+    						</li>
+    						<li class="nav-item">
+    							<a class="nav-link liitem text-center" data-bs-toggle="modal" data-bs-target="#loginModal" style="cursor: pointer;"><i class="fa-solid fa-right-to-bracket"></i>&nbsp;Sign In</a>
+    						</li>
+    					</ul>
+    				</div>
+    			</div>
+    		</nav>
+    	</div>
+    </div>
+    <!-- BNavbar End -->
+
+    <!-- Slider -->
+        <div class="row slider">
+          <div class="col-sm-12 p-0 ">
+            <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="true">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1000">
+                  <img src="img/newSlide.jpg" class="d-block w-100" style="max-height: 550px;" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                  <img src="img/newSlide_2.jpg" class="d-block w-100" style="max-height: 550px;" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                  <img src="img/newSlide_1.jpg" class="d-block w-100" style="max-height: 550px;" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+    <!-- Slider End -->
+    
+    <!-- Modal Here -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    	<div class="modal-dialog">
+    		<div class="modal-content">
+    			<div class="modal-header" style="background-color: #343a42;">
+    				<h1 class="modal-title fs-5 text-white">Sign in Here</h1>
+    				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    			</div>
+    			<form>
+    			    <div class="modal-body" style="background:#f8f9f2;">
+    				    <input type="text" class="form-control mb-3" name="username" placeholder="Enter username">
+    				    <input type="password" class="form-control mb-3" name="password" placeholder="Enter password">
+    				    <center><input type="submit" class="btn btn-md bg-warning rounded fw-bold text-white" name="submit" value="LOGIN"></center>
+    				    <p class="text-center">Have not a account at ? <a href="register_page.html">Register Now</a></p>
+    			    </div>
+    			</form>
+    		</div>
+    	</div>
+    </div>
+    <!-- Modal End Here -->
+
+	<!-- Category -->
+	<div class="row py-2 justify-content-center">
+		<div class="col-sm-4 text-center cat_btn mx-2 mt-2 rounded" id="cat_men">
+			<button class="btn btn-lg text-bg-warning fw-bold"><a href="products_page.html" class="text-decoration-none text-white">Men's</a></button>
+		</div>
+		<div class="col-sm-3 text-center cat_btn mx-2 mt-2 rounded" id="cat_women">
+			<button class="btn btn-lg text-bg-warning fw-bold"><a href="womenProduct.html" class="text-decoration-none text-white">Women's</a></button>
+		</div>
+		<div class="col-sm-4 text-center cat_btn mx-2 mt-2 rounded" id="cat_kids">
+			<button class="btn btn-lg text-bg-warning fw-bold"><a href="kidsProduct.html" class="text-decoration-none text-white">kid's</a></button>
+		</div>
+	</div>	
+	<!-- Category End -->
+
+    <!-- Products -->
+	<div class="row px-4 py-4" style="background:#f8f9f2;">
+		<h2 class="text-center pb-2">OUR <b>PRODUCTS <i class="fa-solid fa-cart-shopping text-success"></i></b></h2>
+		<div class="col-sm-3 pt-3 px-2">
+			<div class="card">
+				<img src="img/kids_4.jpg" class="img-card-top">
+				<div class="card-title text-center fw-bold">Title here 1</div>
+				<div class="card-text text-center">Description here 1</div>
+				<div class="card-text fw-bold p-1">Size : L Price:&#8377;<s>1999</s> 999</div>
+				<div class="card-footer">
+					<div class="row justify-content-between">
+						<div class="col-sm-5 btn btn-sm text-bg-success fw-bold my-1">ADD TO CART</div>
+						<div class="col-sm-4 btn btn-sm text-bg-danger fw-bold my-1"> ORDER NOW </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3 pt-3 px-2">
+			<div class="card">
+				<img src="img/kids_6.jpg" class="img-card-top">
+				<div class="card-title text-center fw-bold">Title here 1</div>
+				<div class="card-text text-center">Description here 1</div>
+				<div class="card-text fw-bold p-1">Size : L Price:&#8377;<s>1999</s> 999</div>
+				<div class="card-footer">
+					<div class="row justify-content-between">
+						<div class="col-sm-5 btn btn-sm text-bg-success fw-bold my-1">ADD TO CART</div>
+						<div class="col-sm-4 btn btn-sm text-bg-danger fw-bold my-1"> ORDER NOW </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3 pt-3 px-2">
+			<div class="card">
+				<img src="img/kids_5.jpg" class="img-card-top">
+				<div class="card-title text-center fw-bold">Title here 1</div>
+				<div class="card-text text-center">Description here 1</div>
+				<div class="card-text fw-bold p-1">Size : L Price:&#8377;<s>1999</s> 999</div>
+				<div class="card-footer">
+					<div class="row justify-content-between">
+						<div class="col-sm-5 btn btn-sm text-bg-success fw-bold my-1">ADD TO CART</div>
+						<div class="col-sm-4 btn btn-sm text-bg-danger fw-bold my-1"> ORDER NOW </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3 pt-3 px-2">
+			<div class="card">
+				<img src="img/kids_8.jpg" class="img-card-top">
+				<div class="card-title text-center fw-bold">Title here 1</div>
+				<div class="card-text text-center">Description here 1</div>
+				<div class="card-text fw-bold p-1">Size : L Price:&#8377;<s>1999</s> 999</div>
+				<div class="card-footer">
+					<div class="row justify-content-between">
+						<div class="col-sm-5 btn btn-sm text-bg-success fw-bold my-1">ADD TO CART</div>
+						<div class="col-sm-4 btn btn-sm text-bg-danger fw-bold my-1"> ORDER NOW </div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-3 pt-3 px-2">
+			<div class="card">
+				<img src="img/product_8.jpg" class="img-card-top">
+				<div class="card-title text-center fw-bold">Title here 1</div>
+				<div class="card-text text-center">Description here 1</div>
+				<div class="card-text fw-bold p-1">Size : L Price:&#8377;<s>1999</s> 999</div>
+				<div class="card-footer">
+					<div class="row justify-content-between">
+						<div class="col-sm-5 btn btn-sm text-bg-success fw-bold my-1">ADD TO CART</div>
+						<div class="col-sm-4 btn btn-sm text-bg-danger fw-bold my-1"> ORDER NOW </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3 pt-3 px-2">
+			<div class="card">
+				<img src="img/product_5.jpg" class="img-card-top">
+				<div class="card-title text-center fw-bold">Title here 1</div>
+				<div class="card-text text-center">Description here 1</div>
+				<div class="card-text fw-bold p-1">Size : L Price:&#8377;<s>1999</s> 999</div>
+				<div class="card-footer">
+					<div class="row justify-content-between">
+						<div class="col-sm-5 btn btn-sm text-bg-success fw-bold my-1">ADD TO CART</div>
+						<div class="col-sm-4 btn btn-sm text-bg-danger fw-bold my-1"> ORDER NOW </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3 pt-3 px-2">
+			<div class="card">
+				<img src="img/product_6.jpg" class="img-card-top">
+				<div class="card-title text-center fw-bold">Title here 1</div>
+				<div class="card-text text-center">Description here 1</div>
+				<div class="card-text fw-bold p-1">Size : L Price:&#8377;<s>1999</s> 999</div>
+				<div class="card-footer">
+					<div class="row justify-content-between">
+						<div class="col-sm-5 btn btn-sm text-bg-success fw-bold my-1">ADD TO CART</div>
+						<div class="col-sm-4 btn btn-sm text-bg-danger fw-bold my-1"> ORDER NOW </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3 pt-3 px-2">
+			<div class="card">
+				<img src="img/product_7.jpg" class="img-card-top">
+				<div class="card-title text-center fw-bold">Title here 1</div>
+				<div class="card-text text-center">Description here 1</div>
+				<div class="card-text fw-bold p-1">Size : L Price:&#8377;<s>1999</s> 999</div>
+				<div class="card-footer">
+					<div class="row justify-content-between">
+						<div class="col-sm-5 btn btn-sm text-bg-success fw-bold my-1">ADD TO CART</div>
+						<div class="col-sm-4 btn btn-sm text-bg-danger fw-bold my-1"> ORDER NOW </div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!-- Products End -->
+
+	<!-- Big Sale -->
+	<div class="row justify-content-center text-center pt-4 pb-3 ">
+		<h2 class=" pb-2">BIG <b class="text-success">SALE!</b></h2>
+		<div class="col-sm-5">
+			<img src="img/bigSale.jpg" class="img-fluid img-thumbnail">
+		</div>
+		<div class="col-sm-5 pt-5">
+			<h4 class="text-center fs-1 text-success pt-5">70% less for all Items</h4>
+			<p class="pt-2">New arrivals, New Collection<br>Flat 70% off in every item you buy from DESIRECART.<br>
+				Offer valid for 5 days only.<br>
+			HURRY UP!</p>
+			<button class="btn btn-md text-bg-success fw-bold">SHOP NOW</button>
+		</div>
+	</div>
+	<!-- Big Sale End -->
+
+    <!-- fixed chat -->
+    <span class="bg-success rounded-start rounded-pill fs-3 py-1 position-fixed top-50 start-0" style="cursor:pointer;">&nbsp;&nbsp;<i class="fa-solid fa-comments text-success rounded-pill bg-white border border-white border-5"></i>&nbsp;&nbsp;</span>
+	<!-- fixed chat end -->
+
+	<!-- Our Service -->
+    <div class="row justify-content-center p-4" style="background:#f8f9f2;">
+    	<h2 class="text-center pb-3">OUR &nbsp;<span class="fw-bold">SERVICES</span><i class="fa-brands fa-servicestack fa-md text-success "></i></h2>
+    	<div class="col-sm-3 border border-3 p-3">
+    		<div class="row">
+    			<div class="col-sm-4"><img src="img/truck-solid.svg" class="img-fluid" style="max-height:80px"></div>
+    			<div class="col-sm-8">
+    				<h4>FREE SHOPING</h4>
+    				<p>For all order upto 2000</p>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="col-sm-3 border border-3 border-start-1 border-end-1 p-3">
+    		<div class="row">
+    			<div class="col-sm-4"><img src="img/calendar-days-solid.svg" class="img-fluid" style="max-height:80px"></div>
+    			<div class="col-sm-8">
+    				<h4>DELIVERY ON TIME</h4>
+    				<p>Fasted Delivery at doorstep.</p>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="col-sm-3 border border-3 p-3">
+    		<div class="row">
+    			<div class="col-sm-4"><img src="img/lock-solid.svg" class="img-fluid" style="max-height:80px"></div>
+    			<div class="col-sm-8">
+    				<h4>SECURE PAYMENT</h4>
+    				<p>100% secure payment.</p>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <!-- Our Service End -->
+
+    <!-- UFooter -->
+    <footer>
+     	<div class="row justify-content-center py-5 text-white" style="background-color: #343a42;">
+     		<div class="col-sm-3 p-3">
+     			<h2>Desire<b>Cart </b><i class="fa-solid fa-cart-shopping text-success"></i></h2>
+     			<p>Address: Azamgarh Uttar Pradesh 276305</p>
+     			<p>Phone: 9865745746</p>
+     			<p>EMail: technicalpankajkumar@gmail.com</p>
+     	    </div>
+     		<div class="col-sm-2 p-3">
+             <h3>Information</h3>
+             <p>About</p>
+             <p>Checkout</p>
+             <p>Contact</p>
+     		</div>
+     		<div class="col-sm-2 p-3">
+             <h3>My Account</h3>
+             <p>My Account</p>
+             <p>Contact</p>
+             <p>Shopping Card</p>
+     		</div>
+     		<div class="col-sm-3 p-3">
+     		 <h3>Join Our NewsLetter Now</h3>
+             <p>Get email latest updates about our shops and latest offeres.</p>
+             <p>Shopping Card</p>
+             <div class="input-group mb-3">
+             	<input type="text" class="form-control" placeholder="Enter your email id">
+             	<span class="input-group-text fw-bold border-0 text-white" id="basic-addon2" style="background: #75b300;">SUBSCRIBE NOW</span>
+             </div>
+     		</div>
+     	</div>
+    </footer>
+    <!-- UFooter End -->
+    <!-- BFooter -->
+    <div class="row">
+    	<div class="col-sm-12 bg-dark py-1 px-3 text-white">&copy;Copyright 2022 All right reserve | templates made by Pankaj Kumar</div>
+    </div>
+    <!-- BFooter End -->
+
+    <!-- script here -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>

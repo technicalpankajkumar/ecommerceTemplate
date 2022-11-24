@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Feedback</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script src="js/bootstrap.js"></script>
+	<script src="https://kit.fontawesome.com/01d2ea68f8.js" crossorigin="anonymous"></script>
+	<style>
+		.liitem
+      {
+        min-height: 30px;
+        min-width: 80px;
+        color: white !important;
+        border-radius: 5px;
+      }
+      .liitem:hover
+      {
+        background-color: orange;
+        color: white;
+        transition: all ease 1s;
+        border-radius: 5px;
+      }
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<!-- UNavbar -->
+		<div class="row top text-dark text-center py-1" style="background-color: #f8f9f2;">
+			<div class="col-sm-4">
+				<i class="bi bi-phone"></i> +91-8572931748
+			</div>
+			<div class="col-sm-4">
+				<i class="bi bi-envelope"></i> technicalpankajkumar@gmail.com
+			</div>
+			<div class="col-sm-4">
+				<i class="fa fa-youtube "></i>&nbsp;&nbsp;
+				<i class="fa fa-whatsapp "></i>&nbsp;&nbsp;
+				<i class="fa fa-instagram "></i>&nbsp;&nbsp;
+				<i class="fa fa-facebook "></i>&nbsp;&nbsp;
+			</div>
+		</div>
+		<!-- UNavbar End -->
+
+		<!-- Search bar -->
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2 text-center fs-2">
+				<b>Apna-</b><b style="color: orange;">Cart<i class="fa fa-cart-fill"></i></b>
+			</div>
+			<div class="col-sm-1"></div>
+			<div class="col-sm-4 pt-2">
+				<div class="input-group flex-nowrap">
+
+					<input type="text" class="form-control" placeholder="Search.." aria-label="Username" aria-describedby="addon-wrapping">
+					<span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-search"></i></span>
+				</div>
+
+			</div>
+			<div class="col-sm-1"></div>
+			<div class="col-sm-1 mx-0 fs-2">
+				<center>
+					<span style="color: orange;"><i class="fa-solid fa-cart-shopping text-success"></i></span>
+
+				</center>
+			</div>
+			<div class="col-sm-1"></div>
+		</div>
+		<!-- Seatch bar End -->
+
+		<!-- BNavbar -->
+    <div class="row sticky-top mt-2 justify-content-center" style="background:#343a42">
+    	<div class="col-sm-2 fs-3 text-white mt-1 mx-0">
+    		<center>
+    			<b>APNA</b><b style="color: orange;">CART</b>
+    		</center>
+    	</div>
+    	<div class="col-sm-6">
+    		<nav class="navbar navbar-expand-lg" style="background:#343a42;">
+    			<div class="container-fluid">
+    				<a href="#"></a>
+    				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    					<span class="navbar-toggler-icon"></span>
+    				</button>
+    				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    						<li class="nav-item">
+    							<a class="nav-link active text-center liitem" aria-current="page" href="web_page.html"><i class="fa-solid fa-house"></i>&nbsp;Home</a>
+    						</li>
+
+    						<li class="nav-item dropdown">
+    							<a class="nav-link dropdown-toggle liitem text-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    								<i class="fa-solid fa-dumpster"></i>&nbsp;Product
+    							</a>
+    							<ul class="dropdown-menu" style="background:#343a42;">
+    								<li><a class="dropdown-item liitem" href="products_page.html">Men's</a></li>
+    								<li><a class="dropdown-item liitem" href="womenProduct.html">Women's</a></li>
+    								<li><a class="dropdown-item liitem" href="kidsProduct.html">Kid's</a></li>
+    							</ul>
+    						</li>
+    						<li class="nav-item">
+    							<a class="nav-link liitem text-center" href="orders_page.html"><i class="fa-solid fa-cart-shopping"></i>&nbsp;MyOrder</a>
+    						</li>
+    						<li class="nav-item">
+    							<a class="nav-link liitem text-center" href="myprofile_page.html"><i class="fa-solid fa-user"></i>&nbsp;MyProfile</a>
+    						</li>
+    						<li class="nav-item">
+    							<a class="nav-link liitem text-center" href="feedback_page.html"><i class="fa-solid fa-rss"></i>&nbsp;Feedback</a>
+    						</li>
+    						<li class="nav-item">
+    							<a class="nav-link liitem text-center" href="register_page.html"><i class="fa-solid fa-user-plus"></i>&nbsp;Sign Up</a>
+    						</li>
+    						<li class="nav-item">
+    							<a class="nav-link liitem text-center" data-bs-toggle="modal" data-bs-target="#loginModal" style="cursor: pointer;"><i class="fa-solid fa-right-to-bracket"></i>&nbsp;Sign In</a>
+    						</li>
+    					</ul>
+    				</div>
+    			</div>
+    		</nav>
+    	</div>
+    </div>
+    <!-- BNavbar End -->
+		
+		<!-- Modal Here -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    	<div class="modal-dialog">
+    		<div class="modal-content">
+    			<div class="modal-header" style="background-color: #343a42;">
+    				<h1 class="modal-title fs-5 text-white">Sign in Here</h1>
+    				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    			</div>
+    			<form>
+    			    <div class="modal-body" style="background:#f8f9f2;">
+    				    <input type="text" class="form-control mb-3" name="username" placeholder="Enter username">
+    				    <input type="password" class="form-control mb-3" name="password" placeholder="Enter password">
+    				    <center><input type="submit" class="btn btn-md bg-warning rounded fw-bold text-white" name="submit" value="LOGIN"></center>
+    				    <p class="text-center">Have not a account at ? <a href="register_page.html">Register Now</a></p>
+    			    </div>
+    			</form>
+    		</div>
+    	</div>
+    </div>
+    <!-- Modal End Here -->
+    
+    <!-- fixed chat -->
+    <span class="bg-success rounded-start rounded-pill fs-3 py-1 position-fixed top-50 start-0" style="cursor:pointer;">&nbsp;&nbsp;<i class="fa-solid fa-comments text-success rounded-pill bg-white border border-white border-5"></i>&nbsp;&nbsp;</span>
+    <!-- fixed chat end -->
+
+		<!-- Feedback form -->
+		<div class="row p-4 justify-content-center px-5">
+			<h3 class="text-center"><span style="border-bottom:4px solid orange; color: orange;">Contact</span> With Us</h3>
+			<center><p class="px-5"> contact form here</p></center>
+
+			<div class="col-sm-6 bg-white p-3 rounded-start border ">
+				<p class="fs-2"><span class="fw-bold fs-2" style="border-bottom:4px solid orange;">Send</span> Your Message</p>
+				<form>
+					<table width="99%" cellpadding="15px">
+						<tr>
+							<td><lable class="fw-bold">Your Name:</lable><br><input type="text" name="" placeholder="Enter Your Name" class="form-control mt-1 "></td>
+
+							<td><lable class="fw-bold">Mo.Number:</lable><br><input type="text" name="" placeholder="Enter Your Contact Number" class="form-control mt-1"></td>
+						</tr>
+						<tr>
+							<td colspan="2"><lable class="fw-bold">Enter Email:</lable><br><input type="text" name="" placeholder="Enter Your Email" class="form-control mt-1"></td>
+
+						</tr>
+						<tr>
+							<td colspan="2"><lable class="fw-bold">Write Message :</lable><br><textarea class="form-control mt-1" rows="4">Type Your Message Here</textarea></td>
+
+						</tr>
+						<tr>
+							<td><input type="submit" name="submit" value="Send a Message" class="btn btn-md text-bg-success"></td>
+							<td></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+
+			<div class="col-sm-4 rounded-end border text-bg-light p-3">
+				<div id="contactus">
+					<h2 class="h2 pb-3"><span style="border-bottom:4px solid orange;">Contact</span> info</h2>
+
+					<h5 class="pt-3 h4" style="color:orange;"><i class="fa-solid fa-xl fa-location-crosshairs"></i>&nbsp;&nbsp;Office Address</h5>
+					<p>Plot No-44, Behind H P Petrol Pumb, Tedhi Pulia Ring Rd, Sector 5, Vikas Nagar, Lucknow Uttar Pradesh, 226022</p>
+
+					<h5 class="pt-3 h4" style="color:orange;"><i class="fa-solid fa-xl fa-phone-volume"></i>&nbsp;&nbsp;Call Us</h5>
+					<p>+91 9999999999<br>+91 8584949383</p>
+
+					<h5 class="pt-3 h4" style="color:orange;"><i class="fa-solid fa-xl fa-envelope"></i>&nbsp;&nbsp;Mail Us</h5>
+					<p>technicalpankajkumar@gmail.com<br>tpk@pankaj.in</p>
+				</div>
+			</div>
+		</div>
+		<!-- Feedback form End -->
+
+		<!-- Our Service -->
+		<div class="row justify-content-center p-4" style="background:#f8f9f2;">
+			<h2 class="text-center pb-3">OUR &nbsp;<span class="fw-bold">SERVICES</span><i class="fa-brands fa-servicestack fa-md text-success "></i></h2>
+			<div class="col-sm-3 border border-3 p-3">
+				<div class="row">
+					<div class="col-sm-4"><img src="img/truck-solid.svg" class="img-fluid" style="max-height:80px"></div>
+					<div class="col-sm-8">
+						<h4>FREE SHOPING</h4>
+						<p>For all order upto 2000</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 border border-3 border-start-1 border-end-1 p-3">
+				<div class="row">
+					<div class="col-sm-4"><img src="img/calendar-days-solid.svg" class="img-fluid" style="max-height:80px"></div>
+					<div class="col-sm-8">
+						<h4>DELIVERY ON TIME</h4>
+						<p>Fasted Delivery at doorstep.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 border border-3 p-3">
+				<div class="row">
+					<div class="col-sm-4"><img src="img/lock-solid.svg" class="img-fluid" style="max-height:80px"></div>
+					<div class="col-sm-8">
+						<h4>SECURE PAYMENT</h4>
+						<p>100% secure payment.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Our Service End -->
+
+		<!-- UFooter -->
+		<footer>
+			<div class="row justify-content-center py-5 text-white" style="background-color: #343a42;">
+				<div class="col-sm-3 p-3">
+					<h2>Desire<b>Cart </b><i class="fa-solid fa-cart-shopping text-success"></i></h2>
+					<p>Address: Azamgarh Uttar Pradesh 276305</p>
+					<p>Phone: 9865745746</p>
+					<p>EMail: technicalpankajkumar@gmail.com</p>
+				</div>
+				<div class="col-sm-2 p-3">
+					<h3>Information</h3>
+					<p>About</p>
+					<p>Checkout</p>
+					<p>Contact</p>
+				</div>
+				<div class="col-sm-2 p-3">
+					<h3>My Account</h3>
+					<p>My Account</p>
+					<p>Contact</p>
+					<p>Shopping Card</p>
+				</div>
+				<div class="col-sm-3 p-3">
+					<h3>Join Our NewsLetter Now</h3>
+					<p>Get email latest updates about our shops and latest offeres.</p>
+					<p>Shopping Card</p>
+					<div class="input-group mb-3">
+						<input type="text" class="form-control" placeholder="Enter your email id">
+						<span class="input-group-text fw-bold border-0 text-white" id="basic-addon2" style="background: #75b300;">SUBSCRIBE NOW</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- UFooter End -->
+		<!-- BFooter -->
+		<div class="row">
+			<div class="col-sm-12 bg-dark py-1 px-3 text-white">&copy;Copyright 2022 All right reserve | templates made by Pankaj Kumar</div>
+		</div>
+		<!-- BFooter End -->
+	</div>
+
+	<!-- script here -->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>
